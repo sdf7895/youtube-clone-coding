@@ -1,0 +1,12 @@
+/*
+    flex-wrap : wrap
+    첫번째 단락에 꽉차면 자동으로 아래로 이동시켜주는 옵션
+    flex만 가능
+*/
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}

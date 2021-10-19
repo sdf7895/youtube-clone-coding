@@ -1,0 +1,46 @@
+/*
+    rem 과 em 차이점
+    em 의 경우, 해당 단위가 사용되고 있는 요소의 font-size 속성 값이 기준이 됩니다. 
+    
+    반면에 rem 에서 r 은 root , 
+    즉 최상위 요소를 font-size 속성 값 의미합니다. HTML에서 최상위 요소는 <html> 입니다.
+
+    outline 
+    요소를 눈에 띄게 하기 위해 테두리(border)의 바깥쪽에 그려지는 선
+*/
+
+.header {
+    display: flex;
+    height: 4rem;
+    padding: 0.8em 1em;
+    background: black;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.input {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    outline: 0;
+}
+
+.button {
+    background-color: darkgray;
+    outline: 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.02);
+}
+
+
+.buttonImg {
+    height: 100%;
+    padding: 0.5em 0.2em;
+}
