@@ -3,6 +3,14 @@
     padding:0.2em;
 }
 
+.container.grid {
+    width: 50%;
+}
+
+.container.list {
+    width: 100%;
+}
+
 /*
     transition : 속성을 천천히 변화시킨다
     flex: 한줄에 반응형으로 나열시킨다
